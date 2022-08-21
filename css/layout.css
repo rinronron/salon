@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* レイアウトのためのCSS */
+
 :root {
     --text: #191919;
     --white: #fff;
@@ -44,4 +45,12 @@ img{
 time,
 h2 {
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header */
+
+#header{
+    height: 100vh;
+    position: relative;
 }

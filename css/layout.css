@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* レイアウトのためのCSS */
+:root {
+    --text: #191919;
+    --white: #fff;
+    --gray: #C3C3C3;
+    --back-text: #F9F9F9;
+}

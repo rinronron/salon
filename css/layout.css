@@ -7,9 +7,6 @@
     --back-text: #F9F9F9;
 }
 
-/*
-GENERAL STYLING
-================================================ */
 html {
     font-size: 100%;
 }
@@ -38,4 +35,10 @@ img{
 
 *{
     box-sizing: border-box
+}
+
+/* font-family */
+
+h2 span{
+    font-family: 'Montserrat', sans-serif;
 }

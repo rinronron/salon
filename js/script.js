@@ -1,4 +1,5 @@
 /* ハンバーガーメニュー */
-$(".openbtn").clic(function (){
+$(".openbtn").click(function (){
     $(this).toggleClass('active');
 })
+

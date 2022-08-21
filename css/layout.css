@@ -4,7 +4,7 @@
     --text: #191919;
     --white: #fff;
     --gray: #C3C3C3;
-    --back-text: #F9F9F9;
+    --back: #F9F9F9;
 }
 
 html {
@@ -39,6 +39,9 @@ img{
 
 /* font-family */
 
-h2 span{
+.time,
+.tel,
+time,
+h2 {
     font-family: 'Montserrat', sans-serif;
 }

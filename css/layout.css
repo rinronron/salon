@@ -92,6 +92,7 @@ h2 {
     top: 400px;
 }
 
-#top-main h1 , p {
+#top-main h1,
+#top-main p {
     color: var(--white);
 }

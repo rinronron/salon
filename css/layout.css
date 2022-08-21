@@ -13,8 +13,29 @@ GENERAL STYLING
 html {
     font-size: 100%;
 }
+
 body {
 	color: var(--text);
     background: var(--white);
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+    outline: none;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box
 }

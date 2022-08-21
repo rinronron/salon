@@ -40,7 +40,6 @@ img {
 }
 
 /* font-family */
-
 .time,
 .tel,
 time,
@@ -50,7 +49,6 @@ h2 {
 
 
 /* header */
-
 #header {
     height: 100vh;
     position: relative;
@@ -79,10 +77,8 @@ h2 {
 }
 
 /* hero */
-
 #hero h1 {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
@@ -94,4 +90,8 @@ h2 {
     height: 111px;
     left: 49px;
     top: 400px;
+}
+
+#top-main h1 , p {
+    color: var(--white);
 }

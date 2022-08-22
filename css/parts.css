@@ -129,12 +129,63 @@
 	background-size:cover;
 }
 
+.arrow-round {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    top: 5px;
+}
+
+.arrow-round::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-top: solid 1px var(--white);
+    border-right: solid 1px var(--white);
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+  
+.arrow-round.arrow-bottom::before {
+    transform: rotate(135deg);
+    top: 30px;
+}
+
+
 #wrapper{
 	position: relative;
 	z-index: 1;
 	background: var(--white);
 }
 
+
+#page-top .arrow-round {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    top: 5px;
+}
+
+#page-top .arrow-round::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: solid 1px var(--white);
+    border-right: solid 1px var(--white);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.arrow-round.arrow-top::before {
+    transform: rotate(-45deg);
+    top: 7px;
+}
 
 
 .fa-instagram {

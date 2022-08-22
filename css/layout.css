@@ -247,6 +247,16 @@ h2 {
 }
 
 
+.reservation {
+    background-color: var(--white);
+}
+
+.reservation ul {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
 /* fotter */
 footer {
     background-color: var(--text);

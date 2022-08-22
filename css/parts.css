@@ -19,6 +19,7 @@
     position: relative;
     display: inline-block;
     top: -2px;
+    right: 134px;
     padding: 13px 50px;
     width: 172px;
     height: 43px;
@@ -36,6 +37,7 @@
     position: relative;
     display: inline-block;
     top: -2px;
+    right: 117px;
     padding: 13px 27px;
     width: 172px;
     height: 43px;
@@ -47,7 +49,9 @@
 }
 
 .openbtn {
-    position: relative;
+    position: fixed;
+    z-index: 9999;
+    right: 48px;
     width: 45px;
     height: 45px;
     border-radius: 50%;

@@ -96,3 +96,28 @@ h2 {
 #top-main p {
     color: var(--white);
 }
+
+.arrow-round {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    top: 5px;
+  }
+
+  .arrow-round::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-top: solid 1px var(--white);
+    border-right: solid 1px var(--white);
+    position: absolute;
+    left: 30px;
+    top: 5px;
+  }
+  
+  .arrow-round.arrow-bottom::before {
+    transform: rotate(135deg);
+    top: 30px;
+  }

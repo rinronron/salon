@@ -3,7 +3,7 @@ $(".openbtn").click(function (){
     $(this).toggleClass('active');
 });
 
-$("openbtn").click(function (){
+$(".openbtn").click(function (){
     $(this).toggleClass('active');
     $("#g-nav").toggleClass('panelactive');
 });

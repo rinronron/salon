@@ -86,7 +86,7 @@ h2 {
     padding-top: 18px;
     display: flex;
     justify-content: flex-end;
-
+    
 }
 
 .btn-tel,
@@ -130,10 +130,4 @@ h2 {
 }
 */
 
-/* gnavi */
 
-#g-nav ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}

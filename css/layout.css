@@ -123,4 +123,96 @@ h2 {
 }
 
 
+/* main-area */
+#ip, #gym {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ip-area {
+    width: 512px;
+    height: 378px;
+    padding-top: 241.5px;
+    padding-left: 207px;
+}
+.ip-title {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.ip-title span.jp {
+    font-family: 'Noto Sans JP';
+    color: var(--gray);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    padding: 40px 0 0 16px;
+}
+
+.lead {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 38px;
+    padding-bottom: 24.5px;
+}
+
+.text {
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 48px;
+}
+
+.more {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.more span {
+    padding-left: 16px;
+    font-size: 30px;
+}
+
+#ip img {
+    padding-top: 300px;
+    padding-right: 208.52px;
+    width: 44%;
+}
+
+.abs {
+    padding-top: 245.5px;
+    width: 50%;
+}
+
+.gym-area {
+    width: 517px;
+    height: 390px;
+    padding-top: 287px;
+    padding-left: 208px;
+}
+
+.gym-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+.gym-area .text {
+    padding-bottom: 26px;
+}
+
+#gym img {
+    padding-top: 167px;
+    width: 40%;
+}
 

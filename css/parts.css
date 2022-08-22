@@ -228,7 +228,7 @@
 
 .move-text span{opacity: 0;}
 
-.move-text.appeartext span{ animation:text_anime_on 2s ease-out forwards; }
+.move-text.appeartext span{ animation:text_anime_on 3s ease-out forwards; }
 
 @keyframes text_anime_on {
   0% {opacity:0;}

@@ -12,7 +12,7 @@ $("#g-nav a").click(function(){
 
 /* 一文字ずつ文字を表示 */
 function EachTextAnimeControl() {
-    $('.eachTextAnime').each(function () {
+    $('.move-text').each(function () {
       var elemPos = $(this).offset().top - 50;
       var scroll = $(window).scrollTop();
       var windowHeight = $(window).height();
@@ -30,7 +30,7 @@ $(window).scroll(function() {
 });
 
 $(window).on('load', function () {
-    var element = $(".eachTextAnime");
+    var element = $(".move-text");
     element.each(function () {
       var text = $(this).text();
       var textbox = "";

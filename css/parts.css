@@ -218,9 +218,9 @@
 }
 
 
-.eachTextAnime span{opacity: 0;}
+.move-text span{opacity: 0;}
 
-.eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+.move-text.appeartext span{ animation:text_anime_on 2s ease-out forwards; }
 
 @keyframes text_anime_on {
   0% {opacity:0;}

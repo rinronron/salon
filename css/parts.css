@@ -235,7 +235,7 @@
   100% {opacity:1;}
 }
 
-
+/* information-area */
 .info {
     background-color: var(--back);
 }
@@ -243,10 +243,25 @@
 .info-area {
     width: 790px;
     height: 289px;
+    margin: 0 auto;
 }
 
 .info-area .title {
     text-align: center;
+}
+
+.info-list li {
+    margin:0 0 23px 0;
+    padding: 0 0 23px 0;
+}
+
+.info-list dl {
+     display: flex;
+     justify-content: space-between;
+}
+
+.info-list dt {
+
 }
 
 .btn01 {

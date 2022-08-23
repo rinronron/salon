@@ -204,6 +204,15 @@ h2 {
     text-align: right;
 }
 
+.judo02 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: var(--back);
+}
+
 .circle01 {
     width: 301px;
     height: 301px;
@@ -229,6 +238,7 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 52px;
+    padding-bottom: 27px;
 }
 
 .gym-area .text {
@@ -302,8 +312,61 @@ h2 {
 
 
 /* blog */
+#blog .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: var(--back);
+}
+
+#blog .title-jp {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+time {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.blog-area p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
 
 
+/* aboutus */
+#about {
+    background-color: var(--text);
+}
+
+#about h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+#about p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--white);
+}
+
+.about-text {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
 
 /* fotter */
 footer {

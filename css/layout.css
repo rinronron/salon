@@ -124,8 +124,6 @@ h2 {
 
 
 /* main-area */
-
-
 #ip, #gym {
     display: flex;
     justify-content: space-between;
@@ -301,6 +299,10 @@ h2 {
     padding-top: 24px;
     padding-bottom: 43px;
 }
+
+
+/* blog */
+
 
 
 /* fotter */

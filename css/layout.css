@@ -124,6 +124,15 @@ h2 {
 
 
 /* main-area */
+.product {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 144px;
+    line-height: 216px;
+    color: var(--back);
+}
+
 #ip, #gym {
     display: flex;
     justify-content: space-between;
@@ -192,6 +201,16 @@ h2 {
 .abs {
     padding-top: 245.5px;
     width: 50%;
+}
+
+.judo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: var(--back);
+    text-align: right;
 }
 
 .gym-area {

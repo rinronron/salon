@@ -250,6 +250,7 @@ h2 {
 
 .reservation {
     background-color: var(--white);
+    height: 224px;
 }
 
 .reservation ul {
@@ -257,6 +258,15 @@ h2 {
     column-gap: 50px;
     justify-content: center;
 }
+
+.reservation p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 24px;
+}
+
 
 /* fotter */
 footer {

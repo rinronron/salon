@@ -248,6 +248,8 @@
 
 .info-area .title {
     text-align: center;
+    padding-top: 56px;
+    padding-bottom: 39px;
 }
 
 .info-list li {
@@ -258,11 +260,23 @@
 .info-list dl {
      display: flex;
      justify-content: space-between;
-}
+}    
+
+
 
 .info-list dt {
-
+    width:30%;
+    padding: 0 0 0 40px;
 }
+
+.info-list .week {
+    padding-bottom: 24px;
+}
+
+.info-list .am {
+    padding-bottom: 37px;
+}
+
 
 .btn01 {
     font-style: normal;

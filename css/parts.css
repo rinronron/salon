@@ -151,6 +151,7 @@
 }
 
 #hero:before {
+    top: 0;
 	content: '';
 	position: fixed;
 	z-index: -1;

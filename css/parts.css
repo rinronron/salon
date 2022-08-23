@@ -241,6 +241,7 @@
 .info {
     background-color: var(--back);
     height: 675px;
+    margin-top: -33px;
 }
 
 .info-area {

@@ -257,10 +257,8 @@ h2 {
     line-height: 22px;
 }
 
-
 .reservation {
-    background-color: var(--white);
-    height: 224px;
+    background-color: var(--white);  
 }
 
 .reservation ul {
@@ -275,6 +273,7 @@ h2 {
     line-height: 32px;
     text-align: center;
     padding-top: 24px;
+    padding-bottom: 43px;
 }
 
 

@@ -217,6 +217,17 @@ h2 {
     padding-bottom: 195px;
 }
 
+
+/* information-area */
+.medical {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: var(--back);
+    text-align: center;
+}
 .title {
     font-family: 'Poppins';
     font-style: normal;

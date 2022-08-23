@@ -240,6 +240,15 @@
     background-color: var(--back);
 }
 
+.info-area {
+    width: 790px;
+    height: 289px;
+}
+
+.info-area .title {
+    text-align: center;
+}
+
 .btn01 {
     font-style: normal;
     font-weight: 500;

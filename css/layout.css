@@ -124,14 +124,7 @@ h2 {
 
 
 /* main-area */
-.product {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 144px;
-    line-height: 216px;
-    color: var(--back);
-}
+
 
 #ip, #gym {
     display: flex;
@@ -142,7 +135,7 @@ h2 {
 .ip-area {
     width: 512px;
     height: 378px;
-    padding-top: 241.5px;
+
     padding-left: 207px;
 }
 .ip-title {
@@ -203,7 +196,7 @@ h2 {
     width: 50%;
 }
 
-.judo {
+.judo01 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -211,6 +204,20 @@ h2 {
     line-height: 122px;
     color: var(--back);
     text-align: right;
+}
+
+.circle01 {
+    width: 301px;
+    height: 301px;
+    border-radius: 50%;
+    border: 30px solid var(--back);
+}
+
+.circle02 {
+    width: 301px;
+    height: 301px;
+    border-radius: 50%;
+    border: 30px solid var(--back);
 }
 
 .gym-area {

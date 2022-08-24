@@ -372,6 +372,7 @@ time {
 
 /* aboutus */
 #about {
+    height: 680px;
     background-color: var(--text);
 }
 
@@ -418,12 +419,13 @@ time {
 
 .about-text {
     margin: auto;
+    width: 308px;
 }
 
 .about-list dl{
     display: flex;
     flex-wrap: wrap;
-    width: 308px;
+    padding-bottom: 30px;
 }
 
 .about-list dt{
@@ -436,7 +438,12 @@ time {
 
 
 /* fotter */
+.border {
+    border-top: 2px solid #E3E3E3;
+}
+
 footer {
+    height: 384px;
     background-color: var(--text);
 }
 .gym-info {

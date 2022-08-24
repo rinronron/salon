@@ -446,6 +446,12 @@ footer {
     height: 384px;
     background-color: var(--text);
 }
+
+.footer-area {
+    padding: 104px 0 0 100px;
+}
+
 .gym-info {
     color: var(--white);
+    padding-top: 25px;
 }

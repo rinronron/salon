@@ -106,11 +106,17 @@ h2 {
     height: 111px;
     left: 49px;
     top: 400px;
+    z-index: 1;
 }
 
 #top-main h1,
 #top-main p {
     color: var(--white);
+}
+
+.geometric {
+    position: absolute;
+    z-index: -1;
 }
 
 .arrow-round.arrow-bottom {
@@ -310,6 +316,11 @@ h2 {
     padding-bottom: 43px;
 }
 
+.attention {
+    display: grid;
+    justify-content: right;
+    padding-right: 15px;
+}
 
 /* blog */
 #blog {

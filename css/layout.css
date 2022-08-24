@@ -415,11 +415,12 @@ time {
 
 #about img {
     width: auto;
+    padding-left: 20%;
 }
 
 .about-text {
     margin: auto;
-    width: 308px;
+    width: 80%;
 }
 
 .about-list dl{

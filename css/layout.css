@@ -455,3 +455,9 @@ footer {
     color: var(--white);
     padding-top: 25px;
 }
+
+#page-top {
+    display: grid;
+    justify-content: right;
+    padding-right: 48px;
+}

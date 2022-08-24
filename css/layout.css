@@ -334,6 +334,16 @@ h2 {
     bottom: 10px;
 }
 
+.blog-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topics-block {
+    padding:10px 50px;
+}
+
 time {
     font-weight: 600;
     font-size: 14px;

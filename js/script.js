@@ -52,3 +52,6 @@ $(window).on('load', function () {
   
     EachTextAnimeControl();
 });
+
+/* 画像をふわっと上へ */
+AOS.init();

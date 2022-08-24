@@ -114,7 +114,7 @@ h2 {
     color: var(--white);
 }
 
-.geometric {
+.geometric01 {
     position: absolute;
     z-index: -1;
 }
@@ -130,7 +130,7 @@ h2 {
 
 
 /* main-area */
-#ip, #gym {
+#ip {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -139,7 +139,6 @@ h2 {
 .ip-area {
     width: 512px;
     height: 378px;
-
     padding-left: 207px;
 }
 .ip-title {
@@ -160,6 +159,15 @@ h2 {
     line-height: 26px;
     letter-spacing: 0.05em;
     padding: 40px 0 0 16px;
+}
+
+.circle01 {
+    position: absolute;
+    right: 48px;
+    width: 301px;
+    height: 301px;
+    border-radius: 50%;
+    border: 30px solid var(--back);
 }
 
 .lead {
@@ -195,9 +203,20 @@ h2 {
     width: 44%;
 }
 
+.overlap {
+    position: relative;
+}
+
 .abs {
-    padding-top: 245.5px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 125px;
     width: 50%;
+}
+
+.geometric02 {
+    position: absolute;
+    z-index: -1;
 }
 
 .judo01 {
@@ -210,7 +229,17 @@ h2 {
     text-align: right;
 }
 
+.circle02 {
+    width: 301px;
+    height: 301px;
+    border-radius: 50%;
+    border: 30px solid var(--back);
+}
+
 .judo02 {
+    position: absolute;
+    right: 48px;
+    top: 667px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -219,24 +248,16 @@ h2 {
     color: var(--back);
 }
 
-.circle01 {
-    width: 301px;
-    height: 301px;
-    border-radius: 50%;
-    border: 30px solid var(--back);
-}
-
-.circle02 {
-    width: 301px;
-    height: 301px;
-    border-radius: 50%;
-    border: 30px solid var(--back);
+#gym {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 767px;
 }
 
 .gym-area {
     width: 517px;
     height: 390px;
-    padding-top: 287px;
     padding-left: 208px;
 }
 
@@ -249,12 +270,6 @@ h2 {
 
 .gym-area .text {
     padding-bottom: 26px;
-}
-
-#gym img {
-    padding-top: 167px;
-    width: 40%;
-    padding-bottom: 195px;
 }
 
 

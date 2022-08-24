@@ -404,6 +404,34 @@ time {
 
 .about-list {
     display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 62px;
+    padding-bottom: 94px;
+    gap: 0 66px;
+}
+
+#about img {
+    width: auto;
+}
+
+.about-text {
+    margin: auto;
+}
+
+.about-list dl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 308px;
+}
+
+.about-list dt{
+   width: 30%;
+}
+
+.about-list dd{
+   width: 70%;
 }
 
 

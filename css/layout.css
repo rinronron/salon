@@ -166,6 +166,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 48px;
+    top: 300px;
     width: 301px;
     height: 301px;
     border-radius: 50%;

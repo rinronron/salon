@@ -187,6 +187,74 @@
     top: 30px;
 }
 
+.close {
+    position: absolute;
+    right: 30px;
+    bottom: 230px;
+    z-index: 1;
+}
+
+.close-btn {
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--text);
+}
+
+.close-btn::before, .close-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 14px;
+    background: var(--white);
+}
+
+.close-btn::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.close-btn::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.pop {
+    position: absolute;
+    right: 48px;
+    bottom: 100px;
+}
+
+.pop-base {
+    width: 300px;
+    height: 150px;
+    background-color: var(--white);
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.base {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sapuri {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.pop-base img {
+    width: 100px;
+    height: 40.35px;
+}
+
 
 #wrapper{
 	position: relative;

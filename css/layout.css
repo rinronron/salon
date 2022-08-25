@@ -128,58 +128,6 @@ h2 {
     -ms-transform: translate(-50%, -50%);
 }
 
-.pop-base {
-    width: 300px;
-    height: 150px;
-    background-color: var(--white);
-    border-radius: 5px;
-}
-
-.base {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.sapuri {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-.pop-base img {
-    width: 100px;
-    height: 40.35px;
-}
-
-.close {
-    display: block;
-    position: relative;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: var(--text);
-}
-
-.close::before, .close::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 2px;
-    height: 14px;
-    background: var(--white);
-}
-
-.close::before {
-    transform: translate(-50%,-50%) rotate(45deg);
-}
-
-.close::after {
-    transform: translate(-50%,-50%) rotate(-45deg);
-}
 
 /* main-area */
 #ip {
@@ -259,18 +207,20 @@ h2 {
 .abs {
     position: absolute;
     z-index: 1;
-    padding-top: 125px;
+    top: 200px;
     width: 50%;
 }
 
 .geometric02 {
     position: absolute;
     z-index: -1;
+    top: 150px;
 }
 
 .judo01 {
     position: absolute;
     z-index: -1;
+    right: 24px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -295,7 +245,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 48px;
-    top: 667px;
+    top: 800px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -308,14 +258,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 0 123px;
-    padding-top: 767px;
+    padding-top: 900px;
 }
 
 .gym-area {
     width: 1231px;
     height: 636px;
     padding-left: 208px;
-    gap: 0 123px;
+    padding-top: 100px;
 }
 
 .gym-title {
@@ -572,6 +522,13 @@ footer {
 .gym-info {
     color: var(--white);
     padding-top: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.gym-info ul {
+
 }
 
 #page-top {

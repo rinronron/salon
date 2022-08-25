@@ -278,6 +278,47 @@ h2 {
 
 
 /* information-area */
+.info {
+    background-color: var(--back);
+    height: 675px;
+    margin-top: -33px;
+}
+
+.info-area {
+    width: 790px;
+    height: 403px;
+    margin: 0 auto;
+}
+
+.info-area .title {
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 39px;
+}
+
+.info-list li {
+    margin:0 0 23px 0;
+    padding: 0 0 23px 0;
+}
+
+.info-list dl {
+     display: flex;
+     justify-content: space-between;
+}    
+
+.info-list dt {
+    width:30%;
+}
+
+.info-list .week {
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--gray);
+}
+
+.info-list .am {
+    padding: 24px 0 37px 0;
+}
+
 .medical {
     font-weight: 700;
     font-size: 100px;

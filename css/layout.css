@@ -128,6 +128,13 @@ h2 {
     -ms-transform: translate(-50%, -50%);
 }
 
+.pop {
+    width: 300px;
+    height: 150px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
 .base {
     font-family: 'Montserrat';
     font-style: normal;

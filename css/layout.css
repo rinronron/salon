@@ -230,6 +230,10 @@ h2 {
 }
 
 .circle02 {
+    position: absolute;
+    z-index: -1;
+    top: 1850px;
+    left: 49px;
     width: 301px;
     height: 301px;
     border-radius: 50%;

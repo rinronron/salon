@@ -335,6 +335,13 @@ h2 {
     line-height: 22px;
 }
 
+.border02 hr {
+    border: none;
+    border-bottom: 2px solid var(--text);
+    width: 20px;
+    padding-top: 8px;
+}
+
 td {
     padding-top: 24px;
 }

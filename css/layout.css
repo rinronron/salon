@@ -133,14 +133,15 @@ h2 {
 #ip {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 0 129px;
 }
 
 .ip-area {
-    width: 512px;
+    width: 1024px;
     height: 378px;
     padding-left: 207px;
 }
+
 .ip-title {
     position: relative;
     font-family: 'Poppins';
@@ -163,6 +164,7 @@ h2 {
 
 .circle01 {
     position: absolute;
+    z-index: -1;
     right: 48px;
     width: 301px;
     height: 301px;
@@ -197,12 +199,6 @@ h2 {
     font-size: 30px;
 }
 
-#ip img {
-    padding-top: 300px;
-    padding-right: 208.52px;
-    width: 44%;
-}
-
 .overlap {
     position: relative;
 }
@@ -220,6 +216,8 @@ h2 {
 }
 
 .judo01 {
+    position: absolute;
+    z-index: -1;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -242,6 +240,7 @@ h2 {
 
 .judo02 {
     position: absolute;
+    z-index: -1;
     right: 48px;
     top: 667px;
     font-family: 'Montserrat';
@@ -255,14 +254,15 @@ h2 {
 #gym {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 0 123px;
     padding-top: 767px;
 }
 
 .gym-area {
-    width: 517px;
-    height: 390px;
+    width: 1231px;
+    height: 636px;
     padding-left: 208px;
+    gap: 0 123px;
 }
 
 .gym-title {

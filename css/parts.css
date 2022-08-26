@@ -187,6 +187,11 @@
     top: 30px;
 }
 
+.pop-wrap.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .close {
     position: absolute;
     right: 30px;

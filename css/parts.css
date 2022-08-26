@@ -223,8 +223,8 @@
 
 .pop {
     position: absolute;
-    right: 20px;
-    top: 15px;
+    right: 48px;
+    bottom: 100px;
     z-index: -1;
 }
 

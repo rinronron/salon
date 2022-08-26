@@ -262,7 +262,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 48px;
-    top: 800px;
+    top: 900px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -274,7 +274,7 @@ h2 {
 #gym {
     display: flex;
     justify-content: space-between;
-    padding-top: 900px;
+    padding-top: 1000px;
     padding-bottom: 106px;
 }
 

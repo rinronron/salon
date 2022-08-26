@@ -187,9 +187,10 @@
     top: 30px;
 }
 
+
 .pop-wrap.hidden {
-    opacity: 0;
-    visibility: hidden;
+        opacity: 0;
+        visibility: hidden;
 }
 
 .close {
@@ -206,6 +207,7 @@
     height: 36px;
     border-radius: 50%;
     background: var(--text);
+    cursor: pointer;
 }
 
 .close-btn::before, .close-btn::after {
@@ -259,8 +261,8 @@
 .pop-base img {
     width: 100px;
     height: 40.35px;
+    cursor: pointer;
 }
-
 
 #wrapper{
 	position: relative;

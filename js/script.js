@@ -9,6 +9,12 @@ $("#g-nav a").click(function(){
     $("#g-nav").removeClass('panelactive');
 });
 
+/* ポップのボタンを押すと消える */
+$(function () {
+  $('.close-btn').on('click', function () {
+    $('.pop-wrap').addClass('hidden');
+  });
+});
 
 /* 一文字ずつ文字を表示 */
 function EachTextAnimeControl() {

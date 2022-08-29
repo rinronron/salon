@@ -117,6 +117,41 @@ h2 {
 .geometric01 {
     position: absolute;
     z-index: -1;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.geometric01 img {
+    width: auto;
+    height: 100%;
+}
+
+@keyframes loop1 {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+  
+.geometric01 img:first-child {
+    animation: loop1 50s -25s linear infinite;
+}
+
+.geometric01 img:last-child {
+    animation: loop2 50s linear infinite;
 }
 
 .arrow-round.arrow-bottom {

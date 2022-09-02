@@ -87,6 +87,15 @@ h2 {
     justify-content: flex-end;
 }
 
+@media screen and (max-width:768px) {
+    #header .logo {
+        left: 20px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+}
 
 /* hero */
 #hero {
@@ -102,56 +111,20 @@ h2 {
 
 #top-main {
     position: absolute;
-    width: 768px;
-    height: 111px;
     left: 49px;
     top: 400px;
     z-index: 1;
 }
 
+@media screen and (max-width:768px) {
+    #top-main {
+        left: 20px;
+    }
+}
+
 #top-main h1,
 #top-main p {
     color: var(--white);
-}
-
-.geometric01 {
-    position: absolute;
-    z-index: -1;
-    display: flex;
-    width: 100vw;
-    height: auto;
-    overflow: hidden;
-}
-
-.geometric01 img {
-    width: auto;
-    height: 100%;
-}
-
-@keyframes loop1 {
-    0% {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-
-@keyframes loop2 {
-    0% {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-200%);
-    }
-}
-  
-.geometric01 img:first-child {
-    animation: loop1 50s -25s linear infinite;
-}
-
-.geometric01 img:last-child {
-    animation: loop2 50s linear infinite;
 }
 
 .arrow-round.arrow-bottom {
@@ -165,17 +138,47 @@ h2 {
 
 
 /* main-area */
+#main-area {
+    width:100%;
+    margin:0 auto;
+    padding: 50px 0 0 0; 
+}
+
 #ip {
     display: flex;
     justify-content: space-between;
-   
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 0 100px 0;
+}
+
+@media screen and (max-width:768px) {
+    #ip {
+        margin:0 0 50px 0;
+    }
 }
 
 .ip-area {
-    width: 512px;
-    height: 378px;
-    padding-left: 207px;
+    width: 36vw;
+    margin: 0 auto 0 15vw;
 }
+
+#ip .ip-img {
+    width: 36vw;
+}
+
+@media screen and (max-width:768px) {
+    #ip .ip-img {
+        width:100%;
+        min-height: 290px;
+        margin: 30px 0 50px 0;
+    }
+  
+  #ip .ip-area {
+        width:100%; 
+        text-align: left;
+    }  
+  }
 
 .ip-title {
     position: relative;
@@ -194,16 +197,7 @@ h2 {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    padding: 40px 0 0 16px;
-}
-
-.ip-img {
-    padding-right: 208.52px;
-}
-
-.ip-img img {
-    width: 383px;
-    height: 253.25px;
+    margin: 40px 0 0 16px;
 }
 
 
@@ -250,16 +244,13 @@ h2 {
 }
 
 .abs {
-    position: absolute;
-    z-index: 1;
-    top: 300px;
-    width: 50%;
+    width: 40vw;
 }
 
-.geometric02 {
-    position: absolute;
-    z-index: -1;
-    top: 250px;
+@media screen and (max-width:768px) {
+    .abs {
+        width:100%;
+    }
 }
 
 .judo01 {
@@ -300,34 +291,51 @@ h2 {
     color: var(--back);
 }
 
+@media screen and (max-width:768px) {
+    .judo01,.judo02 {
+        font-size: 60px;
+    }
+}
+
 #gym {
     display: flex;
     justify-content: space-between;
-    padding-top: 1000px;
-    padding-bottom: 106px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 0 100px 0;
 }
 
 .gym-area {
-    width: 517px;
-    height: 390px;
-    padding-left: 208px;
-    padding-top: 100px;
+    width: 36vw;
+    margin: 0 auto 0 15vw;
 }
 
 .gym-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 52px;
-    padding-bottom: 27px;
+    margin-bottom: 27px;
 }
 
 .gym-area .text {
-    padding-bottom: 26px;
+    margin-bottom: 26px;
 }
 
 .gym-img img {
-    width: 636px;
-    height: 591px;
+    width: 36vw;
+}
+
+@media screen and (max-width:768px) {
+    .gym-img img {
+        width:100%;
+        height: auto;
+        margin: 30px 42px;
+  }
+  
+    #gym .gym-area {
+        width:100%; 
+        text-align: left;
+  }  
 }
 
 
@@ -411,6 +419,17 @@ td {
     justify-content: center;
 }
 
+@media screen and (max-width:768px) {
+    .medical {
+        font-size: 50px;
+    }
+
+    .reservation ul {
+        display: block;
+    }
+}
+
+
 .reservation p {
     font-weight: 500;
     font-size: 16px;
@@ -427,7 +446,11 @@ td {
     padding-top: 40px;
 }
 
-
+@media screen and (max-width:768px) {
+    .info-area {
+        width: auto;
+    }
+}
 
 /* blog */
 #blog {
@@ -460,6 +483,12 @@ td {
     display: flex;
     justify-content: space-between;
     margin: 28px 0 50px 0;
+}
+
+@media screen and (max-width:768px) {
+    .blog-area {
+        display: block;
+    }
 }
 
 .topics-block {
@@ -533,7 +562,8 @@ time {
 
 #about img {
     width: auto;
-    padding-left: 20%;
+    margin-left: 20%;
+    height: 50vh;
 }
 
 .about-text {
@@ -544,7 +574,7 @@ time {
 .about-list dl{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .about-list dt{
@@ -553,6 +583,24 @@ time {
 
 .about-list dd{
    width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    #about .title-en {
+        font-size: 90px;
+        line-height: 80px;
+        padding: 20px 0;
+    }
+    #about .title-jp {
+        left: 30%;
+        margin-top: 8px;
+    }
+    .about-list {
+        display: block;
+    }
+    #about img {
+        margin: 0 30px;
+    }
 }
 
 
@@ -581,5 +629,5 @@ footer {
 #page-top {
     display: grid;
     justify-content: right;
-    padding-right: 48px;
+    margin-right: 48px;
 }

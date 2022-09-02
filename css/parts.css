@@ -52,7 +52,8 @@
 .openbtn {
     position: fixed;
     z-index: 9999;
-    right: 48px;
+    top: 18px;
+    right: 20px;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -158,8 +159,21 @@
 	z-index: -1;
 	width: 100%;
 	height: 100vh;
-	background:url("../img/main.jpg") no-repeat;
+	background:url("../img/main.jpg") no-repeat center;
 	background-size:cover;
+}
+
+@media screen and (max-width:768px) {
+    #hero:before {
+        background-position: top center;
+        background-size: auto 100%;
+    }
+}
+
+#wrapper {
+    position: relative;
+	z-index: 1;
+	background: var(--white);
 }
 
 .arrow-round {
@@ -187,9 +201,16 @@
     top: 30px;
 }
 
+
 .pop-wrap.hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .pop-wrap {
+        display: none;
+    }
 }
 
 .close {
@@ -263,11 +284,6 @@
     cursor: pointer;
 }
 
-#wrapper{
-	position: relative;
-	z-index: 1;
-	background: var(--white);
-}
 
 
 .move-text {
@@ -310,6 +326,12 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .product {
+        font-size: 90px;
     }
 }
 

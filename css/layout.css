@@ -2,10 +2,12 @@
 /* レイアウトのためのCSS */
 
 :root {
-    --text: #191919;
+    --text: #8B8D8F;
+    --pinkgray: #6B636A;
     --white: #fff;
     --gray: #C3C3C3;
     --back: #F9F9F9;
+    --pink: #EEDEE6;
 }
 
 html {
@@ -253,7 +255,7 @@ h2 {
     }
 }
 
-.judo01 {
+.stone01 {
     position: absolute;
     z-index: -1;
     right: 24px;
@@ -278,7 +280,7 @@ h2 {
     border: 30px solid var(--back);
 }
 
-.judo02 {
+.stone02 {
     position: absolute;
     z-index: -1;
     right: 48px;
@@ -340,6 +342,14 @@ h2 {
 
 
 /* information-area */
+.facility {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: var(--back);
+    text-align: center;
+}
+
 .info {
     background-color: var(--back);
     height: 675px;
@@ -356,14 +366,6 @@ h2 {
     text-align: center;
     padding-top: 56px;
     padding-bottom: 39px;
-}
-
-.medical {
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 122px;
-    color: var(--back);
-    text-align: center;
 }
 
 .title {
@@ -520,7 +522,7 @@ time {
 /* aboutus */
 #about {
     height: 680px;
-    background-color: var(--text);
+    background-color: var(--pink);
 }
 
 #about .title-en {
@@ -528,7 +530,7 @@ time {
     font-weight: 700;
     font-size: 100px;
     line-height: 122px;
-    color: #515151;
+    color: var(--text);
     text-align: center;
 }
 
@@ -606,12 +608,12 @@ time {
 
 /* fotter */
 .border {
-    border-top: 2px solid #E3E3E3;
+    border-top: 2px solid var(--white);
 }
 
 footer {
     height: 384px;
-    background-color: var(--text);
+    background-color: var(--pink);
 }
 
 .footer-area {

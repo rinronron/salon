@@ -332,8 +332,13 @@
 }
 
 @media screen and (max-width:768px) {
+    .move-text {
+        font-size: 38px;
+    }
+
     .relaxation {
-        font-size: 90px;
+        font-size: 50px;
+        line-height: 70px;
     }
 }
 

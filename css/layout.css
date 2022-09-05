@@ -184,7 +184,7 @@ h2 {
         width:100%; 
         text-align: left;
     }  
-  }
+}
 
 .ip-title {
     position: relative;
@@ -532,7 +532,7 @@ td {
 }
 
 .topics-block {
-    margin:10px 50px;
+    margin:30px 50px;
 }
 
 .topics-block img {

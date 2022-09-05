@@ -170,6 +170,10 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
+    .ip-area {
+        margin: 0 10vw 0 10vw;
+    }
+
     #ip .ip-img {
         width:100%;
         min-height: 290px;
@@ -250,6 +254,11 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
+    .circle01 {
+        width: 180px;
+        height: 180px;
+        border: 15px solid var(--back);
+    }
     .abs {
         width:100%;
     }
@@ -294,7 +303,13 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
-    .judo01,.judo02 {
+    .circle02 {
+        width: 180px;
+        height: 180px;
+        border: 15px solid var(--back);
+    }
+
+    .stone01,.stone02 {
         font-size: 60px;
     }
 }
@@ -328,6 +343,10 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
+    .gym-area {
+        margin: 0 10vw 0 10vw;
+    }
+
     .gym-img img {
         width:100%;
         height: auto;
@@ -612,7 +631,7 @@ time {
     }
 
     #about .title-en {
-        font-size: 90px;
+        font-size: 88px;
         line-height: 80px;
         padding: 20px 0;
     }

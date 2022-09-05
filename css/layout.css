@@ -211,7 +211,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 48px;
-    top: 300px;
+    top: 550px;
     width: 301px;
     height: 301px;
     border-radius: 50%;
@@ -268,7 +268,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 24px;
-    padding-top: 100px;
+    padding-top: 200px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -281,7 +281,7 @@ h2 {
 .circle02 {
     position: absolute;
     z-index: -1;
-    top: 1850px;
+    top: 1750px;
     left: 49px;
     width: 301px;
     height: 301px;
@@ -293,7 +293,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 48px;
-    top: 900px;
+    top: 1080px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -307,10 +307,19 @@ h2 {
         width: 180px;
         height: 180px;
         border: 15px solid var(--back);
+        top: 2000px;
     }
 
-    .stone01,.stone02 {
+    .stone01 {
         font-size: 60px;
+        padding-top: 300px;
+        line-height: 60px;
+    }
+
+    .stone02 {
+        font-size: 60px;
+        top: 1280px;
+        line-height: 60px;
     }
 }
 
@@ -319,7 +328,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding:0 0 100px 0;
+    padding: 30px 0 100px 0;
 }
 
 .gym-area {

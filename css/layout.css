@@ -348,7 +348,8 @@ h2 {
 }
 
 .gym-img img {
-    width: 36vw;
+    width: 30vw;
+    height: 36vw;
 }
 
 @media screen and (max-width:768px) {
@@ -359,7 +360,7 @@ h2 {
     .gym-img img {
         width:100%;
         height: auto;
-        margin: 30px 42px;
+        margin: 40px;
   }
   
     #gym .gym-area {

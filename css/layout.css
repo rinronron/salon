@@ -312,7 +312,7 @@ h2 {
 
     .stone01 {
         font-size: 60px;
-        padding-top: 300px;
+        padding-top: 320px;
         line-height: 60px;
     }
 
@@ -569,7 +569,7 @@ time {
 
 /* aboutus */
 #about {
-    height: 680px;
+    height: 780px;
     background-color: var(--pink);
 }
 
@@ -580,6 +580,7 @@ time {
     line-height: 122px;
     color: var(--text);
     text-align: center;
+    padding: 30px 0;
 }
 
 #about .title-jp {
@@ -643,11 +644,10 @@ time {
     #about .title-en {
         font-size: 88px;
         line-height: 80px;
-        padding: 20px 0;
     }
     #about .title-jp {
         left: 30%;
-        margin-top: 8px;
+        margin-top: 15px;
     }
     .about-list {
         display: block;

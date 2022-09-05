@@ -311,7 +311,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 144px;
-    line-height: 216px;
+    line-height: 150px;
     color: var(--back);
     padding-bottom: 60px;
     animation-name: fadeRightAnime;
@@ -397,6 +397,11 @@
     line-height: 40px;
 }
 
+@media screen and (max-width:768px) {
+    .btn01,.btn02 {
+        width: 300px;
+    }
+}
 
 /* fotter */
 .fa-instagram {

@@ -422,20 +422,26 @@ td {
 }
 
 @media screen and (max-width:768px) {
+    #information-area {
+        height: 950px;
+    }
     .facility {
         font-size: 50px;
         line-height: 60px;
     }
 
     .info {
-        margin-top: -13px;
+        margin: -13px 30px 0 30px;
+    }
+
+    .reservation {
+       padding-top: 30px;
     }
 
     .reservation ul {
         display: block;
     }
 }
-
 
 .reservation p {
     font-weight: 500;
@@ -493,6 +499,14 @@ td {
 }
 
 @media screen and (max-width:768px) {
+    #blog .title-en {
+        font-size: 80px;
+        margin-left: 30px;
+    }
+
+    #blog .title-jp {
+        left: 140px;
+    }
     .blog-area {
         display: block;
     }
@@ -593,6 +607,10 @@ time {
 }
 
 @media screen and (max-width:768px) {
+    #about {
+        height: 1000px;
+    }
+
     #about .title-en {
         font-size: 90px;
         line-height: 80px;
@@ -637,4 +655,14 @@ footer {
     display: grid;
     justify-content: right;
     margin-right: 48px;
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        height: 340px;
+    }
+
+    .footer-area {
+        padding: 60px 0 0 30px;
+    }
 }

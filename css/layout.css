@@ -7,7 +7,7 @@
     --white: #fff;
     --gray: #C3C3C3;
     --back: #F9F9F9;
-    --pink: #EEDEE6;
+    --pink: #dad0d5;
 }
 
 html {
@@ -352,7 +352,7 @@ h2 {
 }
 
 .gym-img img {
-    width: 30vw;
+    width: 26vw;
     height: 36vw;
 }
 

@@ -146,6 +146,10 @@ h2 {
     padding: 50px 0 0 0; 
 }
 
+#product {
+    margin-bottom: 180px;
+}
+
 #ip {
     display: flex;
     justify-content: space-between;
@@ -268,7 +272,7 @@ h2 {
     position: absolute;
     z-index: -1;
     right: 24px;
-    padding-top: 200px;
+    padding-top: 300px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -292,8 +296,8 @@ h2 {
 .stone02 {
     position: absolute;
     z-index: -1;
-    right: 48px;
-    top: 1080px;
+    right: 68px;
+    top: 880px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -328,7 +332,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px 0 100px 0;
+    padding: 30px 0 0 0;
 }
 
 .gym-area {
@@ -353,6 +357,10 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
+    #gym {
+        padding: 80px 0 0 0;
+    }
+
     .gym-area {
         margin: 0 10vw 0 10vw;
     }

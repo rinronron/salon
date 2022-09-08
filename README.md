@@ -20,7 +20,7 @@
 - コーヒーやジェラートのMENUページでは動画を使い商品の香りやフレッシュさが伝わるように購買意欲を掻き立てるデザインを意識しました。  
 - レスポンシブデザインではグローバルナビゲーションに動きを付け、横幅を50％にしメニューを開け閉めしていることを意識してもらえるようにしました。  
 
-![respon-min](https://user-images.githubusercontent.com/87799790/173310790-c5ee87dd-0864-4cb7-8d7a-4f2fedd5a60d.gif)　
+
 
 
 # 使用言語、環境
@@ -33,4 +33,4 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a>　　
 
 # 今後追加したい機能など
-レスポンシブデザインがまだ出来ていないので少しずつ更新しています。
+お問い合わせフォームを実装したいと思っています。

@@ -327,7 +327,7 @@ h2 {
     }
 }
 
-#gym {
+#hot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,43 +335,43 @@ h2 {
     padding: 30px 0 0 0;
 }
 
-.gym-area {
+.hot-area {
     width: 36vw;
     margin: 0 auto 0 15vw;
 }
 
-.gym-title {
+.hot-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 52px;
     margin-bottom: 27px;
 }
 
-.gym-area .text {
+.hot-area .text {
     margin-bottom: 26px;
 }
 
-.gym-img img {
+.hot-img img {
     width: 26vw;
     height: 36vw;
 }
 
 @media screen and (max-width:768px) {
-    #gym {
+    #hot {
         padding: 80px 0 0 0;
     }
 
-    .gym-area {
+    .hot-area {
         margin: 0 10vw 0 10vw;
     }
 
-    .gym-img img {
+    .hot-img img {
         width:100%;
         height: auto;
         margin: 40px;
   }
   
-    #gym .gym-area {
+    #hot .hot-area {
         width:100%; 
         text-align: left;
   }  

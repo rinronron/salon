@@ -150,7 +150,7 @@ h2 {
     margin-bottom: 180px;
 }
 
-#ip {
+#bt {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,38 +159,38 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
-    #ip {
+    #bt {
         margin:0 0 50px 0;
     }
 }
 
-.ip-area {
+.bt-area {
     width: 36vw;
     margin: 0 auto 0 15vw;
 }
 
-#ip .ip-img {
+#bt .bt-img {
     width: 36vw;
 }
 
 @media screen and (max-width:768px) {
-    .ip-area {
+    .bt-area {
         margin: 0 10vw 0 10vw;
     }
 
-    #ip .ip-img {
+    #bt .bt-img {
         width:100%;
         min-height: 290px;
         margin: 30px 0 50px 0;
     }
   
-  #ip .ip-area {
+  #bt .bt-area {
         width:100%; 
         text-align: left;
     }  
 }
 
-.ip-title {
+.bt-title {
     position: relative;
     font-family: 'Poppins';
     font-style: normal;
@@ -199,7 +199,7 @@ h2 {
     line-height: 84px;
 }
 
-.ip-title span.jp {
+.bt-title span.jp {
     font-family: 'Noto Sans JP';
     color: var(--gray);
     font-style: normal;
